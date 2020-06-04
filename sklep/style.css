@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header, footer{
+    flex-basis: 100%;
+    display: flex;
+
+    justify-content: space-between;
+}
+main:nth-of-type(1){
+    display: flex;
+flex-basis: 100%;
+
+
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+aside{
+    flex-basis: 10%;
+  
+}
+nav{
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+aside:nth-of-type(1){
+    order: 1;
+}
+
+article{
+    order:2;
+    flex-basis:60%
+}
+aside:nth-of-type(2){
+    order: 3;
+}
+article{display: flex;
+    flex-wrap: wrap;
+    
+}
+section{
+    flex-basis: 100%;
+    padding: 1em;
+}
+body>header:nth-child(1){
+    background-color: grey;
+}
+body>footer{
+    background-color: grey;
+}
+nav>a{
+ color: black;
+ padding: 1.25em;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    object-fit: scale-down;
+
+}
+aside>figure>img{
+object-fit: scale-down;
+border-style: solid;
+border-width: 1px;
+}
+section>figure{
+    height: 90%;
+padding-top: 2em;
+    align-self: center;
+  
+   
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+article{
+    border-style: solid;
+border-width: 1px;
+}
+article>section{
+    flex-basis: 50%;
+    padding-top: 1em;
+}
+body>main{
+    display: flex;
+flex-wrap: wrap;
+}
+article>section:nth-child(2){
+    
+   
+    height: 40%;
+}
+main>figure{
+    padding-top: 5em;
+  
+  
+}
+footer{
+  display: flex;
+    justify-content: space-around;
+    
+}
+div{
+    width: 1px;
+border-width: 1px;
+border-style: solid;
+border-color: #4F746B;
+height: 50%;
+align-self: center;
+
+}
+footer>a{
+    color: black;
+  padding: 0.9em;
+    
+   }
+   section>figure>img{
+       object-fit: scale-down;
+       height: 100%;
+       align-self: flex-end;
+       padding-top: 2em;
+   
+   }
+   article>section:nth-child(3){
+       flex-basis: 100%;
+       border-top-style: solid;
+       height: 50%;
+   }
+  section>header{
+      display: flex;
+      justify-content: center;
+  }
+  
+section>main{
+    justify-content: space-evenly;
+    
+}
+button{
+    background-color: #3cc5c2;
+    
+}
+
+article>section:nth-child(1){
+height: 40%;
+}

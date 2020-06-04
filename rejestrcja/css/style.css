@@ -1,0 +1,147 @@
+header, footer{
+    display: flex;
+    flex-basis: 100%;
+  flex-wrap: wrap;
+justify-content: center;
+background-color: #888888
+}
+body>header{
+padding: 1em;
+border-bottom-left-radius: 1em ;
+border-bottom-right-radius: 1em;
+box-shadow: 0 0 1em 10px;}
+nav{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+h1{
+
+ margin-bottom: 1em; 
+}
+body>footer{
+    background-color: #888888;
+    justify-content: space-evenly;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    box-shadow: 0 -7px 1em;
+ 
+
+
+}
+body{
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: flex-end;
+}
+a{
+    color: black;
+    text-decoration: none;
+   
+
+align-self: center;
+}
+div{
+width: 0px;
+border-width: 1px;
+border-style: solid;
+border-color: #4F746B;
+height: 1em;
+align-self: center;
+
+
+}
+
+main{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3em;
+    justify-content: space-evenly;
+    padding-bottom: 1em;
+}
+
+article{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+section{
+    flex-basis: 80%;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}section>section{
+    flex-basis: 45%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-self: flex-end;
+}
+article>section{
+    align-self: center;
+}
+label{
+    align-self: center;
+    margin-right: 1em;
+}
+section>input{
+    flex-basis: 30%;
+
+   box-shadow: 10px 10px 1em;
+   font-size: large;
+}
+p{
+    margin-right: 1em;
+}
+footer>section:nth-of-type(1){
+    justify-content: space-evenly;
+
+}
+input{
+    border-radius: 1em;
+    outline: none;
+   
+}
+button{
+    border-radius: 10px;
+    flex-basis: 20%;
+    background-color: #3cc5c2;
+    height: 110%;
+    box-shadow: 10px 10px 1em;
+}
+section:nth-of-type(3){
+    flex-basis: 60%;
+    justify-content: flex-end;
+}
+article>section{
+    justify-content: flex-end;
+    flex-basis: 63%;
+}
+footer>section{
+    padding-top: 1em;
+    padding-bottom: 0em;
+}
+
+img{
+    border-radius: 1em;
+}
+section:nth-of-type(3){
+    flex-basis: 100%;
+    justify-content:center;
+}
+section:nth-of-type(4){
+    flex-basis: 100%;
+    justify-content: center;
+
+}

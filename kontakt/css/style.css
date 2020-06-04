@@ -1,0 +1,107 @@
+header, footer{
+    display: flex;
+    flex-basis: 100%;
+  flex-wrap: wrap;
+justify-content: center;
+background-color: #888888
+}
+header{
+  border-bottom-left-radius:1em ;
+  border-bottom-right-radius:1em ;
+  box-shadow: 0 10px 1em;
+}
+nav{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 2em;
+}
+main{padding-bottom: 1em;}
+footer{
+  background-color: #888888;
+  justify-content: space-evenly;
+border-top-left-radius:1em ;
+border-top-right-radius:1em ;
+box-shadow: 0 -10px 1em;
+}
+  textarea{
+    resize: none;
+    flex-basis: 72%;
+  }
+  section{
+    justify-content:space-around;
+    display: flex;
+    padding: 1em;
+   
+  }
+  body {
+    margin: 0;
+  }
+  label{
+    padding-right: 5px;
+  }
+  form{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form>section{
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section>section{
+    flex-basis: 100%;
+    justify-content: flex-end;
+  }
+  form>section:nth-of-type(3){
+   justify-content: flex-end;
+    flex-basis: 81%;
+  }
+  footer>section{
+    flex-basis: 100%;
+  }
+  div{
+    width: 0;
+border-width: 1px;
+border-style: solid;
+border-color: #4F746B;
+height: 1em;
+align-self: center;
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+form>section:nth-of-type(4){
+  display: flex;
+  flex-basis: 100%;
+}
+button{
+  background-color: #3cc5c2;
+ border: none;
+ flex-basis: 10%;
+ padding: 10px;
+ border-radius: 1em; 
+
+}
+input{
+  border-radius: 5px;
+  outline: none;
+ height: 110%;
+ box-shadow: 10px 10px 1em;
+ border: none;
+ font-size: large;
+}
+textarea{
+  border-radius: 10px;
+  box-shadow: 10px 10px 1em;
+  border: none;
+  outline: none;
+  font-size: larger;
+  flex-basis: 76%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  box-shadow: 10px 10px 1em;
+}
